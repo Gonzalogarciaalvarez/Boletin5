@@ -20,6 +20,7 @@ public class Boletin53 {
         // TODO code application logic here
         Scanner obx1 = new Scanner (System.in);
         Metodos obx2=new Metodos();
+        System.out.println("Introduzca un numero");
         obx2.setNum(obx1.nextInt());
         obx2.getNum();
         
