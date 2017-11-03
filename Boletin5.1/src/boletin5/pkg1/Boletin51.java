@@ -18,7 +18,6 @@ public class Boletin51 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int num1;
         Scanner obx1 = new Scanner (System.in);
         Metodos obx2=new Metodos();
         obx2.setNum1(obx1.nextInt());
