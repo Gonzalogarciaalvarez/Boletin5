@@ -20,7 +20,9 @@ public class Boletin52 {
         // TODO code application logic here
         Scanner obx1 = new Scanner (System.in);
         Metodos obx2=new Metodos();
+        System.out.println("Introduzca un numero");
         obx2.setA(obx1.nextShort());
+        System.out.println("Introduzca otro numero");
         obx2.setB(obx1.nextShort());
         
         if(obx2.getA()>=obx2.getB()){
