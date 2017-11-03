@@ -20,8 +20,8 @@ public class Boletin51 {
         // TODO code application logic here
         Scanner obx1 = new Scanner (System.in);
         Metodos obx2=new Metodos();
+        System.out.println("Introduzca un numero");
         obx2.setNum1(obx1.nextInt());
-        obx2.getNum1();
         
         if(obx2.getNum1()>=0){
             System.out.println("O numero "+obx2.getNum1()+" é positivo");
